@@ -425,6 +425,9 @@
     border-color: transparent;
     background-origin: border-box;
   }
+  .checkbox-form:focus + .checkbox-label-form::before {
+    border-color: var(--interactive-color);
+  }
   .checkbox-form:hover + .checkbox-label-form::before {
     background-size: contain;
     background-repeat: no-repeat;
