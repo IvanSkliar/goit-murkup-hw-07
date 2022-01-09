@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/components/modal-window.scss"
+    ],
+    "names": [],
+    "file": "modal-window.min.css"
+}
