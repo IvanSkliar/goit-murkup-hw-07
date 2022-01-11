@@ -242,7 +242,7 @@
     text-transform: uppercase;
     color: var(--header-color);
   }
-   /*Модальное-окно*/
+   /*modal-window*/
   .backdrop{
     position: fixed;
    top: 0;
@@ -419,7 +419,7 @@
  }
   .checkbox-form:checked + .checkbox-label-form::before {
     background-color: var(--interactive-color);
-    background-image: url(../icon/icon\ check\ \(1\).svg);
+    background-image: url(../icon/iconcheck.svg);
     background-size: contain;
     background-repeat: no-repeat;
     border-color: transparent;

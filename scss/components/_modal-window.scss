@@ -174,7 +174,7 @@
  }
   .checkbox-form:checked + .checkbox-label-form::before {
     background-color: var(--interactive-color);
-    background-image: url(../icon/icon\ check\ \(1\).svg);
+    background-image: url(../icon/iconcheck.svg);
     background-size: contain;
     background-repeat: no-repeat;
     border-color: transparent;
@@ -211,45 +211,4 @@
   }
   .input-form:focus + svg{
     fill: var(--interactive-color);
-  }
-  /* Приоритеты */
-  .icon-block{
-    height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--rear-background);
-    border-radius: 4px;
-    margin-bottom: 30px;
-  }
-  .icon-priorities{
-    width: 70px;
-    height: 70px;
-  }
-  .priorities{padding-top: 94px;}
-  .list{display: flex;}
-  .priorities-item:not(:last-child){
-    margin-right: 30px;
-    
-  }
-  .priorities-item{
-    width: 270px;
-  }
-  
-  .priorities-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    
-  }
-  .priorities-description {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--secondary-color);
-    text-transform: none;
-    
-    
   }
