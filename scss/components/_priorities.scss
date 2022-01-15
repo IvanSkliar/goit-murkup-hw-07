@@ -7,21 +7,21 @@
     border-radius: 4px;
     margin-bottom: 30px;
   }
-  .icon-priorities{
+  .priorities__icon{
     width: 70px;
     height: 70px;
   }
   .priorities{padding-top: 94px;}
-  .list{display: flex;}
-  .priorities-item:not(:last-child){
+  .priorities__list{display: flex;}
+  .priorities__item:not(:last-child){
     margin-right: 30px;
     
   }
-  .priorities-item{
+  .priorities__item{
     width: 270px;
   }
   
-  .priorities-title {
+  .priorities__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -29,7 +29,7 @@
     text-transform: uppercase;
     
   }
-  .priorities-description {
+  .priorities__description {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;

@@ -615,7 +615,7 @@ img {
   margin-bottom: 30px;
 }
 
-.icon-priorities {
+.priorities__icon {
   width: 70px;
   height: 70px;
 }
@@ -624,21 +624,21 @@ img {
   padding-top: 94px;
 }
 
-.list {
+.priorities__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.priorities-item:not(:last-child) {
+.priorities__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.priorities-item {
+.priorities__item {
   width: 270px;
 }
 
-.priorities-title {
+.priorities__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -646,7 +646,7 @@ img {
   text-transform: uppercase;
 }
 
-.priorities-description {
+.priorities__description {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -659,7 +659,7 @@ img {
   padding-bottom: 94px;
 }
 
-.activity-title {
+.activity__title {
   font-family: var(--primary-font);
   font-weight: bold;
   font-size: 36px;
@@ -671,22 +671,22 @@ img {
   color: var(--primary-color);
 }
 
-.activity-list {
+.activity__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 50px;
 }
 
-.activity-item:not(:last-child) {
+.activity__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.activity-foto {
+.activity__block {
   position: relative;
 }
 
-.activity-text {
+.activity__text {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -704,7 +704,7 @@ img {
   opacity: 1;
 }
 
-.activity-text-foto {
+.activity__description {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -714,24 +714,36 @@ img {
   color: var(--header-color);
 }
 
-.staff {
+.team {
   background-color: var(--rear-background);
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.staff-list {
+.team__title {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.team__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.staff-box {
+.team-box {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.staff-name {
+.team__name {
   margin-bottom: 10px;
   font-family: var(--primary-font);
   font-weight: 500;
@@ -742,7 +754,7 @@ img {
   color: var(--primary-color);
 }
 
-.staff-position {
+.team__position {
   font-family: var(--primary-font);
   font-weight: normal;
   font-size: 16px;
@@ -752,18 +764,18 @@ img {
   color: var(--secondary-color);
 }
 
-.staff-block-foto:not(:last-child) {
+.team__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.staff-block-foto {
+.team__item {
   background-color: var(--header-color);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.social-icon {
+.team__social-icon {
   width: 20px;
   height: 20px;
   -webkit-transition: fill var(--transit-time) var(--transition-properties);
@@ -771,7 +783,7 @@ img {
   transition: fill var(--transit-time) var(--transition-properties);
 }
 
-.social-list {
+.team__social-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -781,7 +793,7 @@ img {
   margin-top: 16px;
 }
 
-.social-link {
+.team__social-link {
   display: block;
   width: 44px;
   height: 44px;
@@ -795,17 +807,17 @@ img {
   transition: background-color var(--transit-time) var(--transition-properties);
 }
 
-.social-link:focus,
-.social-link:hover {
+.team__social-link:focus,
+.team__social-link:hover {
   background-color: var(--interactive-color);
 }
 
-.social-link:focus svg,
-.social-link:hover svg {
+.team__social-link:focus svg,
+.team__social-link:hover svg {
   fill: var(--header-color);
 }
 
-.social-paragraph:not(:last-child) {
+.team__social-item:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -814,7 +826,7 @@ img {
   padding-bottom: 94px;
 }
 
-.clients-heading {
+.clients__text {
   font-family: var(--primary-font);
   font-weight: bold;
   font-size: 36px;
@@ -826,7 +838,7 @@ img {
   color: var(--primary-color);
 }
 
-.clients-link {
+.clients__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -845,33 +857,33 @@ img {
   transition: border-color var(--transit-time) var(--transition-properties);
 }
 
-.icon-clients {
+.clients__icon {
   width: 106px;
   height: 60px;
 }
 
-.clients-link:hover svg,
-.clients-link:focus svg {
+.clients__link:hover svg,
+.clients__link:focus svg {
   fill: var(--interactive-color);
 }
 
-.icon-clients {
+.clients__icon {
   fill: #AFB1B8;
   -webkit-transition: fill var(--transit-time) var(--transition-properties);
   -o-transition: fill var(--transit-time) var(--transition-properties);
   transition: fill var(--transit-time) var(--transition-properties);
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   border-color: var(--interactive-color);
 }
 
-.clients-list :not(:last-child) {
+.clients__list :not(:last-child) {
   margin-right: 30px;
 }
 
-.clients-list {
+.clients__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -889,7 +901,7 @@ img {
   padding-bottom: 60px;
 }
 
-.footer-link {
+.footer__link {
   display: block;
   margin-bottom: 20px;
   font-family: var(--secondary-font);
@@ -905,7 +917,7 @@ img {
   color: var(--header-color);
 }
 
-.address {
+.footer__address {
   margin-bottom: 9px;
   color: var(--header-color);
   font-family: var(--primary-font);
@@ -916,11 +928,11 @@ img {
   letter-spacing: 0.03em;
 }
 
-.footer-contacts-item:not(:last-child) {
+.footer__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-contacts {
+.footer__item--contacts {
   font-family: var(--primary-font);
   font-weight: normal;
   font-size: 14px;
@@ -929,8 +941,8 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-list .footer-contacts:hover,
-.footer-list .footer-contacts:focus {
+.footer__list .footer__item--contacts:hover,
+.footer__list .footer__item--contactss:focus {
   color: var(--interactive-color);
 }
 
