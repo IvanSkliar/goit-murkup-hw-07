@@ -17,22 +17,22 @@
     <!--Header-->
     <header class="header">
         <div class="container header-container">
-        <a class="header-link" href="./index.html"><span class="web">Web</span>Studio</a>
+        <a class="header__link" href="./index.html"><span class="web">Web</span>Studio</a>
         
     
         <nav class="header-nav">
-        <ul class="header-list">
-            <li class="header-li">
-                <a class="link-studio" href="./index.html">Студия</a>
+        <ul class="header-nav__list">
+            <li class="header-nav__item">
+                <a class="header-nav__link--studio" href="./index.html">Студия</a>
 
             </li>
-            <li class="header-li"><a class="link" href="./portfolio.html">Портфолио</a></li>
-            <li class="header-li"><a class="link" href="#">Контакты</a></li>
+            <li class="header-nav__item"><a class="header-nav__link" href="./portfolio.html">Портфолио</a></li>
+            <li class="header-nav__item"><a class="header-nav__link" href="#">Контакты</a></li>
         </ul>
         </nav>
-        <ul class="header-list-contacts">
-        <li class="contacts-item">
-            <a class="contacts" href="mailto:info@devstudio.com">
+        <ul class="contacts">
+        <li class="contacts__item">
+            <a class="contacts__link" href="mailto:info@devstudio.com">
             <svg class="envelope">
                 <use href="icon/sprite.svg#icon-envelope-hover-1"></use>
             </svg>
@@ -40,8 +40,8 @@
             info@devstudio.com</a>
             
         </li>
-        <li class="contacts-item">
-            <a class="contacts" href="tel:380961111111">
+        <li class="contacts__item">
+            <a class="contacts__link" href="tel:380961111111">
             <svg class="icon-Vector">
                 <use href="icon/sprite.svg#icon-Vector-1"></use>
             </svg>
@@ -52,48 +52,48 @@
     </header>
     <main>
         <!--Hero-->
-        <section class="order-background">
+        <section class="hero">
             <div class="container">
-                <h1 class="order-background-title">эффективные решения для вашего бизнеса</h1>
-                <div class="modal-open">
-                <button data-modal-open class="button" type="button">Заказать услугу</button>
+                <h1 class="hero__title">эффективные решения для вашего бизнеса</h1>
+                <div class="modal-block">
+                <button data-modal-open class="hero__button" type="button">Заказать услугу</button>
                 </div>
                 <!--modal-window-->
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
                         
-                        <button class="modal-close" data-modal-close>
+                        <button class="modal__open" data-modal-close>
                             <svg class="icon-modal" width="11" height="11">
                                 <use class="icon-modal-close" href="icon/sprite.svg#icon--1"></use>
                             </svg>
                         </button>
                        
-                        <form class="form">
-                            <p class="text-form">Оставьте свои данные, мы вам перезвоним</p>
-                            <label class="label-form">Имя
-                                <input type="text" class="input-form">
-                                <svg class="form-svg" width="12" height="12">
+                        <form class="modal__form">
+                            <p class="modal__text">Оставьте свои данные, мы вам перезвоним</p>
+                            <label class="modal__label">Имя
+                                <input type="text" class="modal__input">
+                                <svg class="modal__icon" width="12" height="12">
                                     <use href="icon/sprite.svg#icon-name-modal"></use>
                                 </svg>
                             </label>
-                            <label class="label-form">Телефон
-                                <input type="tel" class="input-form">
-                                <svg class="form-svg" width="13" height="13">
+                            <label class="modal__label">Телефон
+                                <input type="tel" class="modal__input">
+                                <svg class="modal__icon" width="13" height="13">
                                     <use href="icon/sprite.svg#icon-tel-modal"></use>
                                 </svg>
                             </label>
-                            <label class="label-form">Почта
-                                <input type="email" class="input-form">
-                                <svg class="form-svg" width="15" height="12">
+                            <label class="modal__label">Почта
+                                <input type="email" class="modal__input">
+                                <svg class="modal__icon" width="15" height="12">
                                     <use href="icon/sprite.svg#icon-mail-modal"></use>
                                 </svg>
                             </label>
-                            <label class="label-form">Комментарий
-                                <textarea name="coments" cols="30" rows="10" placeholder="Введите текст" class="textarea-form"></textarea>
+                            <label class="modal__label">Комментарий
+                                <textarea name="coments" cols="30" rows="10" placeholder="Введите текст" class="modal__textarea"></textarea>
                             </label>
-                            <input class="checkbox-form" type="checkbox" id="check-form">
-                            <label class="checkbox-label-form" for="check-form"> Соглашаюсь с рассылкой и принимаю &nbsp; <a href="#" class="link-form">Условия договора</a></label>
-                            <button class="button-form" type="submit">Отправить</button>
+                            <input class="modal__checkbox" type="checkbox" id="check-form">
+                            <label class="modal__checkbox-form" for="check-form"> Соглашаюсь с рассылкой и принимаю &nbsp; <a href="#" class="modal__link">Условия договора</a></label>
+                            <button class="modal__button" type="submit">Отправить</button>
                         </form>
 
                     </div>
